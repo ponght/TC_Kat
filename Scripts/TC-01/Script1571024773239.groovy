@@ -23,3 +23,6 @@ WebUI.setText(findTestObject('tx_search'), 'katalon studio')
 
 WebUI.click(findTestObject('btn_search_k'))
 
+result = WebUI.getWindowTitle()
+
+println result 
