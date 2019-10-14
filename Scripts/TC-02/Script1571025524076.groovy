@@ -12,14 +12,17 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.google.co.th')
+WebUI.navigateToUrl('https://www.google.co.th/')
 
-WebUI.waitForElementPresent(findTestObject('tx_search'), 0)
+WebUI.setText(findTestObject('Page_Google/input__q'), 'Katalon studio')
 
-WebUI.setText(findTestObject('tx_search'), 'katalon studio')
+WebUI.click(findTestObject('Object Repository/Page_Google/input__btnK'))
 
-WebUI.click(findTestObject('btn_search_k'))
+WebUI.click(findTestObject('Object Repository/Page_Katalon studio -  Google/cite_Katalon Studio'))
+
+WebUI.closeBrowser()
 

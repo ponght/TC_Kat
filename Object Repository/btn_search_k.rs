@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>//div[@class='vdLsw gsfi']</description>
-   <name>tx_search</name>
+   <description></description>
+   <name>btn_search_k</name>
    <tag></tag>
-   <elementGuidId>8954335f-502a-43ea-8b69-777ff8313189</elementGuidId>
+   <elementGuidId>5ea8915d-7a71-435f-a6e1-f2283c06792f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input</value>
+         <value>//div[@class='VlcLAe']//input[@name='btnK']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@name='q']</value>
+      <value>//div[@class='VlcLAe']//input[@name='btnK']</value>
    </webElementProperties>
 </WebElementEntity>
